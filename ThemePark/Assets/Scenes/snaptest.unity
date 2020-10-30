@@ -522,6 +522,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1578152544}
   - component: {fileID: 1578152545}
+  - component: {fileID: 1578152546}
   m_Layer: 5
   m_Name: PositionTool
   m_TagString: Untagged
@@ -566,6 +567,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SnapSO: {fileID: 11400000, guid: ff83823cde63b1f289ee5277a40dceb0, type: 2}
+--- !u!114 &1578152546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578152543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46e6450be67bb5d1fa6385f85e28691e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PopupList:
+  - 1
+  - 2
+  - 3
+  Popup: 
 --- !u!1 &1730102869
 GameObject:
   m_ObjectHideFlags: 0
